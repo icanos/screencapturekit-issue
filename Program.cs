@@ -6,7 +6,7 @@ using ScreenCaptureKit;
 
 NSApplication.Init();
 
-Console.WriteLine("Nu kör vi!");
+Console.WriteLine("Hello world!");
 
 var test = await SCShareableContent.GetShareableContentAsync(false, true);
 foreach (var w in test.Windows)
