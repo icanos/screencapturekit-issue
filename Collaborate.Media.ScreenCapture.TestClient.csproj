@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0-macos</TargetFramework>
+        <RuntimeIdentifier>osx-arm64</RuntimeIdentifier>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <SupportedOSPlatformVersion>12.3</SupportedOSPlatformVersion>
+        <ApplicationId>se.sekurbit.TestClient</ApplicationId>
+    </PropertyGroup>
+</Project>
